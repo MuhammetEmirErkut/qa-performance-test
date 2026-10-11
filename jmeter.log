@@ -1,0 +1,337 @@
+2026-10-11 19:57:59,206 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2026-10-11 19:57:59,219 INFO o.a.j.JMeter: Loading user properties from: /opt/homebrew/Cellar/jmeter/5.6.3/libexec/bin/user.properties
+2026-10-11 19:57:59,219 INFO o.a.j.JMeter: Loading system properties from: /opt/homebrew/Cellar/jmeter/5.6.3/libexec/bin/system.properties
+2026-10-11 19:57:59,222 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2026-10-11 19:57:59,222 INFO o.a.j.JMeter: Version 5.6.3
+2026-10-11 19:57:59,223 INFO o.a.j.JMeter: java.version=21.0.12.1
+2026-10-11 19:57:59,223 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2026-10-11 19:57:59,223 INFO o.a.j.JMeter: os.name=Mac OS X
+2026-10-11 19:57:59,223 INFO o.a.j.JMeter: os.arch=aarch64
+2026-10-11 19:57:59,223 INFO o.a.j.JMeter: os.version=26.3
+2026-10-11 19:57:59,223 INFO o.a.j.JMeter: file.encoding=UTF-8
+2026-10-11 19:57:59,223 INFO o.a.j.JMeter: java.awt.headless=null
+2026-10-11 19:57:59,223 INFO o.a.j.JMeter: Max memory     =1073741824
+2026-10-11 19:57:59,223 INFO o.a.j.JMeter: Available Processors =8
+2026-10-11 19:57:59,229 INFO o.a.j.JMeter: Default Locale=English (EN)
+2026-10-11 19:57:59,229 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2026-10-11 19:57:59,229 INFO o.a.j.JMeter: JMeterHome=/opt/homebrew/Cellar/jmeter/5.6.3/libexec
+2026-10-11 19:57:59,229 INFO o.a.j.JMeter: user.dir  =/Users/erkut/projects/qa-performance-test
+2026-10-11 19:57:59,229 INFO o.a.j.JMeter: PWD       =/Users/erkut/projects/qa-performance-test
+2026-10-11 19:57:59,240 INFO o.a.j.JMeter: IP: 192.168.1.103 Name: 192.168.1.103 FullName: 192.168.1.103
+2026-10-11 19:57:59,245 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2026-10-11 19:57:59,543 INFO o.a.j.JMeterGuiLauncher: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.DarculaTheme
+2026-10-11 19:58:00,518 INFO o.a.j.r.ClassFinder: Will scan jar /opt/homebrew/Cellar/jmeter/5.6.3/libexec/lib/ext/jmeter-plugins-manager-1.9.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.action.Command], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2026-10-11 19:58:00,600 INFO o.a.j.r.ClassFinder: Will scan jar /opt/homebrew/Cellar/jmeter/5.6.3/libexec/lib/ext/jmeter-plugins-manager-1.9.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.plugin.MenuCreator], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2026-10-11 19:58:00,658 INFO o.j.r.JARSourceHTTP: Requesting https://jmeter-plugins.org/repo/?installID=mac_os_x-da9702f5b0a67fcd02fc0d86034c974d-gui
+2026-10-11 19:58:02,469 INFO o.j.r.PluginManager: Plugins Status: [jpgc-plugins-manager=1.9, jmeter-core=5.6.3, jmeter-ftp=5.6.3, jmeter-http=5.6.3, jmeter-jdbc=5.6.3, jmeter-jms=5.6.3, jmeter-junit=5.6.3, jmeter-java=5.6.3, jmeter-ldap=5.6.3, jmeter-mail=5.6.3, jmeter-mongodb=5.6.3, jmeter-native=5.6.3, jmeter-tcp=5.6.3, jmeter-components=5.6.3]
+2026-10-11 19:58:02,470 INFO o.j.r.PluginManagerMenuItem: Plugins Manager has upgrades: [jpgc-plugins-manager]
+2026-10-11 19:58:14,838 INFO o.a.j.s.FileServer: Default base='/Users/erkut/projects/qa-performance-test'
+2026-10-11 19:58:14,840 INFO o.a.j.g.a.Load: Loading file: /Users/erkut/projects/qa-performance-test/seviye1_kolay.jmx
+2026-10-11 19:58:14,840 INFO o.a.j.s.FileServer: Set new base='/Users/erkut/projects/qa-performance-test'
+2026-10-11 19:58:14,940 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2026-10-11 19:58:14,945 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2026-10-11 19:58:14,946 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2026-10-11 19:58:14,946 INFO o.a.j.s.SaveService: Loading file: /Users/erkut/projects/qa-performance-test/seviye1_kolay.jmx
+2026-10-11 19:58:14,991 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-10-11 19:58:14,992 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-10-11 19:58:14,992 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-10-11 19:58:14,992 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-10-11 19:58:14,992 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2026-10-11 19:58:14,992 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2026-10-11 19:58:15,076 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2026-10-11 19:58:15,076 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2026-10-11 19:58:15,076 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2026-10-11 19:58:15,076 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2026-10-11 19:58:15,140 INFO o.a.j.r.ClassFinder: Will scan jar /opt/homebrew/Cellar/jmeter/5.6.3/libexec/lib/ext/jmeter-plugins-manager-1.9.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2026-10-11 19:58:15,154 INFO o.a.j.r.ClassFinder: Will scan jar /opt/homebrew/Cellar/jmeter/5.6.3/libexec/lib/ext/jmeter-plugins-manager-1.9.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2026-10-11 19:58:15,181 INFO o.a.j.s.FileServer: Set new base='/Users/erkut/projects/qa-performance-test'
+2026-10-11 19:58:50,941 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2026-10-11 19:58:50,941 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2026-10-11 19:58:50,942 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2026-10-11 19:58:50,942 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2026-10-11 19:58:50,943 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2026-10-11 19:58:50,974 INFO o.a.j.r.ClassFinder: Will scan jar /opt/homebrew/Cellar/jmeter/5.6.3/libexec/lib/ext/jmeter-plugins-manager-1.9.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2026-10-11 19:58:50,976 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2026-10-11 19:58:51,000 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group - 20 Kullanici
+2026-10-11 19:58:51,000 INFO o.a.j.e.StandardJMeterEngine: Starting 20 threads for group Thread Group - 20 Kullanici.
+2026-10-11 19:58:51,000 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2026-10-11 19:58:51,000 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=20 ramp-up=10 delayedStart=false
+2026-10-11 19:58:51,002 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - 20 Kullanici 1-1
+2026-10-11 19:58:51,004 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2026-10-11 19:58:51,004 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2026-10-11 19:58:51,006 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = 192.168.1.103
+2026-10-11 19:58:51,008 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2026-10-11 19:58:51,137 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2026-10-11 19:58:51,138 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2026-10-11 19:58:51,138 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2026-10-11 19:58:51,184 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2026-10-11 19:58:51,185 INFO o.a.j.u.SSLManager: KeyStore created OK
+2026-10-11 19:58:51,185 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2026-10-11 19:58:51,506 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - 20 Kullanici 1-2
+2026-10-11 19:58:51,545 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - 20 Kullanici 1-1
+2026-10-11 19:58:51,545 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - 20 Kullanici 1-1
+2026-10-11 19:58:51,898 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - 20 Kullanici 1-2
+2026-10-11 19:58:51,898 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - 20 Kullanici 1-2
+2026-10-11 19:58:52,005 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - 20 Kullanici 1-3
+2026-10-11 19:58:52,407 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - 20 Kullanici 1-3
+2026-10-11 19:58:52,407 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - 20 Kullanici 1-3
+2026-10-11 19:58:52,504 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - 20 Kullanici 1-4
+2026-10-11 19:58:52,959 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - 20 Kullanici 1-4
+2026-10-11 19:58:52,959 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - 20 Kullanici 1-4
+2026-10-11 19:58:53,005 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - 20 Kullanici 1-5
+2026-10-11 19:58:53,445 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - 20 Kullanici 1-5
+2026-10-11 19:58:53,446 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - 20 Kullanici 1-5
+2026-10-11 19:58:53,506 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - 20 Kullanici 1-6
+2026-10-11 19:58:53,922 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - 20 Kullanici 1-6
+2026-10-11 19:58:53,923 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - 20 Kullanici 1-6
+2026-10-11 19:58:54,005 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - 20 Kullanici 1-7
+2026-10-11 19:58:54,504 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - 20 Kullanici 1-8
+2026-10-11 19:58:54,511 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - 20 Kullanici 1-7
+2026-10-11 19:58:54,511 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - 20 Kullanici 1-7
+2026-10-11 19:58:54,941 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - 20 Kullanici 1-8
+2026-10-11 19:58:54,941 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - 20 Kullanici 1-8
+2026-10-11 19:58:55,003 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - 20 Kullanici 1-9
+2026-10-11 19:58:55,505 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - 20 Kullanici 1-10
+2026-10-11 19:58:55,513 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - 20 Kullanici 1-9
+2026-10-11 19:58:55,513 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - 20 Kullanici 1-9
+2026-10-11 19:58:55,967 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - 20 Kullanici 1-10
+2026-10-11 19:58:55,967 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - 20 Kullanici 1-10
+2026-10-11 19:58:56,005 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - 20 Kullanici 1-11
+2026-10-11 19:58:56,385 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - 20 Kullanici 1-11
+2026-10-11 19:58:56,385 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - 20 Kullanici 1-11
+2026-10-11 19:58:56,506 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - 20 Kullanici 1-12
+2026-10-11 19:58:56,988 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - 20 Kullanici 1-12
+2026-10-11 19:58:56,989 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - 20 Kullanici 1-12
+2026-10-11 19:58:57,006 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - 20 Kullanici 1-13
+2026-10-11 19:58:57,505 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - 20 Kullanici 1-14
+2026-10-11 19:58:57,505 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - 20 Kullanici 1-13
+2026-10-11 19:58:57,506 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - 20 Kullanici 1-13
+2026-10-11 19:58:57,911 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - 20 Kullanici 1-14
+2026-10-11 19:58:57,911 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - 20 Kullanici 1-14
+2026-10-11 19:58:58,005 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - 20 Kullanici 1-15
+2026-10-11 19:58:58,425 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - 20 Kullanici 1-15
+2026-10-11 19:58:58,425 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - 20 Kullanici 1-15
+2026-10-11 19:58:58,505 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - 20 Kullanici 1-16
+2026-10-11 19:58:58,941 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - 20 Kullanici 1-16
+2026-10-11 19:58:58,941 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - 20 Kullanici 1-16
+2026-10-11 19:58:59,005 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - 20 Kullanici 1-17
+2026-10-11 19:58:59,392 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - 20 Kullanici 1-17
+2026-10-11 19:58:59,393 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - 20 Kullanici 1-17
+2026-10-11 19:58:59,506 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - 20 Kullanici 1-18
+2026-10-11 19:59:00,006 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - 20 Kullanici 1-19
+2026-10-11 19:59:00,017 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - 20 Kullanici 1-18
+2026-10-11 19:59:00,017 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - 20 Kullanici 1-18
+2026-10-11 19:59:00,417 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - 20 Kullanici 1-19
+2026-10-11 19:59:00,418 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - 20 Kullanici 1-19
+2026-10-11 19:59:00,505 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - 20 Kullanici 1-20
+2026-10-11 19:59:00,953 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - 20 Kullanici 1-20
+2026-10-11 19:59:00,953 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - 20 Kullanici 1-20
+2026-10-11 19:59:00,954 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2026-10-11 19:59:00,955 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2026-10-11 19:59:51,566 INFO o.a.j.r.ClassFinder: Will scan jar /opt/homebrew/Cellar/jmeter/5.6.3/libexec/lib/ext/jmeter-plugins-manager-1.9.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2026-10-11 19:59:51,577 INFO o.a.j.r.ClassFinder: Will scan jar /opt/homebrew/Cellar/jmeter/5.6.3/libexec/lib/ext/jmeter-plugins-manager-1.9.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2026-10-11 19:59:51,597 INFO o.a.j.g.a.Load: Loading file: /Users/erkut/projects/qa-performance-test/seviye2_orta.jmx
+2026-10-11 19:59:51,597 INFO o.a.j.s.FileServer: Set new base='/Users/erkut/projects/qa-performance-test'
+2026-10-11 19:59:51,597 INFO o.a.j.s.SaveService: Loading file: /Users/erkut/projects/qa-performance-test/seviye2_orta.jmx
+2026-10-11 19:59:51,637 INFO o.a.j.r.ClassFinder: Will scan jar /opt/homebrew/Cellar/jmeter/5.6.3/libexec/lib/ext/jmeter-plugins-manager-1.9.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2026-10-11 19:59:51,643 INFO o.a.j.r.ClassFinder: Will scan jar /opt/homebrew/Cellar/jmeter/5.6.3/libexec/lib/ext/jmeter-plugins-manager-1.9.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2026-10-11 19:59:51,659 INFO o.a.j.s.FileServer: Set new base='/Users/erkut/projects/qa-performance-test'
+2026-10-11 20:00:11,261 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2026-10-11 20:00:11,262 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2026-10-11 20:00:11,263 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2026-10-11 20:00:11,289 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group - 50 Kullanici
+2026-10-11 20:00:11,290 INFO o.a.j.e.StandardJMeterEngine: Starting 50 threads for group Thread Group - 50 Kullanici.
+2026-10-11 20:00:11,290 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2026-10-11 20:00:11,290 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=50 ramp-up=20 delayedStart=false
+2026-10-11 20:00:11,290 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - 50 Kullanici 1-1
+2026-10-11 20:00:11,298 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2026-10-11 20:00:11,298 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2026-10-11 20:00:11,696 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - 50 Kullanici 1-2
+2026-10-11 20:00:12,096 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - 50 Kullanici 1-3
+2026-10-11 20:00:12,496 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - 50 Kullanici 1-4
+2026-10-11 20:00:12,895 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - 50 Kullanici 1-5
+2026-10-11 20:00:13,295 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - 50 Kullanici 1-6
+2026-10-11 20:00:13,695 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - 50 Kullanici 1-7
+2026-10-11 20:00:14,009 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - 50 Kullanici 1-1
+2026-10-11 20:00:14,009 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - 50 Kullanici 1-1
+2026-10-11 20:00:14,096 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - 50 Kullanici 1-8
+2026-10-11 20:00:14,390 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - 50 Kullanici 1-2
+2026-10-11 20:00:14,390 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - 50 Kullanici 1-2
+2026-10-11 20:00:14,495 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - 50 Kullanici 1-9
+2026-10-11 20:00:14,811 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - 50 Kullanici 1-3
+2026-10-11 20:00:14,812 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - 50 Kullanici 1-3
+2026-10-11 20:00:14,896 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - 50 Kullanici 1-10
+2026-10-11 20:00:15,203 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - 50 Kullanici 1-4
+2026-10-11 20:00:15,203 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - 50 Kullanici 1-4
+2026-10-11 20:00:15,295 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - 50 Kullanici 1-11
+2026-10-11 20:00:15,588 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - 50 Kullanici 1-5
+2026-10-11 20:00:15,589 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - 50 Kullanici 1-5
+2026-10-11 20:00:15,695 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - 50 Kullanici 1-12
+2026-10-11 20:00:16,048 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - 50 Kullanici 1-6
+2026-10-11 20:00:16,048 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - 50 Kullanici 1-6
+2026-10-11 20:00:16,095 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - 50 Kullanici 1-13
+2026-10-11 20:00:16,429 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - 50 Kullanici 1-7
+2026-10-11 20:00:16,429 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - 50 Kullanici 1-7
+2026-10-11 20:00:16,496 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - 50 Kullanici 1-14
+2026-10-11 20:00:16,840 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - 50 Kullanici 1-8
+2026-10-11 20:00:16,840 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - 50 Kullanici 1-8
+2026-10-11 20:00:16,896 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - 50 Kullanici 1-15
+2026-10-11 20:00:17,248 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - 50 Kullanici 1-9
+2026-10-11 20:00:17,249 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - 50 Kullanici 1-9
+2026-10-11 20:00:17,295 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - 50 Kullanici 1-16
+2026-10-11 20:00:17,696 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - 50 Kullanici 1-17
+2026-10-11 20:00:17,707 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - 50 Kullanici 1-10
+2026-10-11 20:00:17,707 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - 50 Kullanici 1-10
+2026-10-11 20:00:18,028 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - 50 Kullanici 1-11
+2026-10-11 20:00:18,029 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - 50 Kullanici 1-11
+2026-10-11 20:00:18,096 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - 50 Kullanici 1-18
+2026-10-11 20:00:18,454 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - 50 Kullanici 1-12
+2026-10-11 20:00:18,454 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - 50 Kullanici 1-12
+2026-10-11 20:00:18,494 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - 50 Kullanici 1-19
+2026-10-11 20:00:18,887 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - 50 Kullanici 1-13
+2026-10-11 20:00:18,888 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - 50 Kullanici 1-13
+2026-10-11 20:00:18,895 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - 50 Kullanici 1-20
+2026-10-11 20:00:19,275 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - 50 Kullanici 1-14
+2026-10-11 20:00:19,275 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - 50 Kullanici 1-14
+2026-10-11 20:00:19,295 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - 50 Kullanici 1-21
+2026-10-11 20:00:19,663 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - 50 Kullanici 1-15
+2026-10-11 20:00:19,664 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - 50 Kullanici 1-15
+2026-10-11 20:00:19,695 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - 50 Kullanici 1-22
+2026-10-11 20:00:20,046 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - 50 Kullanici 1-16
+2026-10-11 20:00:20,046 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - 50 Kullanici 1-16
+2026-10-11 20:00:20,095 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - 50 Kullanici 1-23
+2026-10-11 20:00:20,438 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - 50 Kullanici 1-17
+2026-10-11 20:00:20,438 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - 50 Kullanici 1-17
+2026-10-11 20:00:20,496 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - 50 Kullanici 1-24
+2026-10-11 20:00:20,828 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - 50 Kullanici 1-18
+2026-10-11 20:00:20,829 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - 50 Kullanici 1-18
+2026-10-11 20:00:20,895 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - 50 Kullanici 1-25
+2026-10-11 20:00:21,167 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - 50 Kullanici 1-19
+2026-10-11 20:00:21,167 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - 50 Kullanici 1-19
+2026-10-11 20:00:21,295 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - 50 Kullanici 1-26
+2026-10-11 20:00:21,582 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - 50 Kullanici 1-20
+2026-10-11 20:00:21,582 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - 50 Kullanici 1-20
+2026-10-11 20:00:21,695 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - 50 Kullanici 1-27
+2026-10-11 20:00:21,997 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - 50 Kullanici 1-21
+2026-10-11 20:00:21,997 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - 50 Kullanici 1-21
+2026-10-11 20:00:22,095 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - 50 Kullanici 1-28
+2026-10-11 20:00:22,421 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - 50 Kullanici 1-22
+2026-10-11 20:00:22,421 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - 50 Kullanici 1-22
+2026-10-11 20:00:22,495 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - 50 Kullanici 1-29
+2026-10-11 20:00:22,826 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - 50 Kullanici 1-23
+2026-10-11 20:00:22,827 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - 50 Kullanici 1-23
+2026-10-11 20:00:22,895 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - 50 Kullanici 1-30
+2026-10-11 20:00:23,200 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - 50 Kullanici 1-24
+2026-10-11 20:00:23,200 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - 50 Kullanici 1-24
+2026-10-11 20:00:23,296 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - 50 Kullanici 1-31
+2026-10-11 20:00:23,610 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - 50 Kullanici 1-25
+2026-10-11 20:00:23,611 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - 50 Kullanici 1-25
+2026-10-11 20:00:23,695 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - 50 Kullanici 1-32
+2026-10-11 20:00:24,025 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - 50 Kullanici 1-26
+2026-10-11 20:00:24,025 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - 50 Kullanici 1-26
+2026-10-11 20:00:24,095 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - 50 Kullanici 1-33
+2026-10-11 20:00:24,450 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - 50 Kullanici 1-27
+2026-10-11 20:00:24,451 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - 50 Kullanici 1-27
+2026-10-11 20:00:24,495 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - 50 Kullanici 1-34
+2026-10-11 20:00:24,753 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - 50 Kullanici 1-28
+2026-10-11 20:00:24,754 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - 50 Kullanici 1-28
+2026-10-11 20:00:24,895 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - 50 Kullanici 1-35
+2026-10-11 20:00:25,295 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - 50 Kullanici 1-36
+2026-10-11 20:00:25,385 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - 50 Kullanici 1-29
+2026-10-11 20:00:25,385 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - 50 Kullanici 1-29
+2026-10-11 20:00:25,603 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - 50 Kullanici 1-30
+2026-10-11 20:00:25,603 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - 50 Kullanici 1-30
+2026-10-11 20:00:25,695 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - 50 Kullanici 1-37
+2026-10-11 20:00:26,006 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - 50 Kullanici 1-31
+2026-10-11 20:00:26,006 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - 50 Kullanici 1-31
+2026-10-11 20:00:26,096 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - 50 Kullanici 1-38
+2026-10-11 20:00:26,356 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - 50 Kullanici 1-32
+2026-10-11 20:00:26,356 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - 50 Kullanici 1-32
+2026-10-11 20:00:26,494 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - 50 Kullanici 1-39
+2026-10-11 20:00:26,792 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - 50 Kullanici 1-33
+2026-10-11 20:00:26,793 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - 50 Kullanici 1-33
+2026-10-11 20:00:26,891 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - 50 Kullanici 1-40
+2026-10-11 20:00:27,165 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - 50 Kullanici 1-34
+2026-10-11 20:00:27,165 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - 50 Kullanici 1-34
+2026-10-11 20:00:27,295 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - 50 Kullanici 1-41
+2026-10-11 20:00:27,594 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - 50 Kullanici 1-35
+2026-10-11 20:00:27,595 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - 50 Kullanici 1-35
+2026-10-11 20:00:27,694 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - 50 Kullanici 1-42
+2026-10-11 20:00:28,009 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - 50 Kullanici 1-36
+2026-10-11 20:00:28,009 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - 50 Kullanici 1-36
+2026-10-11 20:00:28,095 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - 50 Kullanici 1-43
+2026-10-11 20:00:28,495 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - 50 Kullanici 1-44
+2026-10-11 20:00:28,510 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - 50 Kullanici 1-37
+2026-10-11 20:00:28,511 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - 50 Kullanici 1-37
+2026-10-11 20:00:28,804 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - 50 Kullanici 1-38
+2026-10-11 20:00:28,804 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - 50 Kullanici 1-38
+2026-10-11 20:00:28,895 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - 50 Kullanici 1-45
+2026-10-11 20:00:29,228 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - 50 Kullanici 1-39
+2026-10-11 20:00:29,229 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - 50 Kullanici 1-39
+2026-10-11 20:00:29,296 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - 50 Kullanici 1-46
+2026-10-11 20:00:29,655 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - 50 Kullanici 1-40
+2026-10-11 20:00:29,655 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - 50 Kullanici 1-40
+2026-10-11 20:00:29,696 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - 50 Kullanici 1-47
+2026-10-11 20:00:30,095 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - 50 Kullanici 1-48
+2026-10-11 20:00:30,402 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - 50 Kullanici 1-42
+2026-10-11 20:00:30,403 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - 50 Kullanici 1-42
+2026-10-11 20:00:30,495 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - 50 Kullanici 1-49
+2026-10-11 20:00:30,847 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - 50 Kullanici 1-43
+2026-10-11 20:00:30,847 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - 50 Kullanici 1-43
+2026-10-11 20:00:30,890 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - 50 Kullanici 1-50
+2026-10-11 20:00:31,091 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - 50 Kullanici 1-41
+2026-10-11 20:00:31,091 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - 50 Kullanici 1-41
+2026-10-11 20:00:31,401 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - 50 Kullanici 1-44
+2026-10-11 20:00:31,401 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - 50 Kullanici 1-44
+2026-10-11 20:00:31,717 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - 50 Kullanici 1-45
+2026-10-11 20:00:31,717 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - 50 Kullanici 1-45
+2026-10-11 20:00:32,033 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - 50 Kullanici 1-46
+2026-10-11 20:00:32,034 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - 50 Kullanici 1-46
+2026-10-11 20:00:32,427 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - 50 Kullanici 1-47
+2026-10-11 20:00:32,427 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - 50 Kullanici 1-47
+2026-10-11 20:00:32,839 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - 50 Kullanici 1-48
+2026-10-11 20:00:32,840 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - 50 Kullanici 1-48
+2026-10-11 20:00:33,247 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - 50 Kullanici 1-49
+2026-10-11 20:00:33,247 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - 50 Kullanici 1-49
+2026-10-11 20:00:33,657 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - 50 Kullanici 1-50
+2026-10-11 20:00:33,658 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - 50 Kullanici 1-50
+2026-10-11 20:00:33,659 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2026-10-11 20:00:33,659 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2026-10-11 20:01:00,926 INFO o.a.j.g.a.Load: Loading file: /Users/erkut/projects/qa-performance-test/seviye3_zor.jmx
+2026-10-11 20:01:00,927 INFO o.a.j.s.FileServer: Set new base='/Users/erkut/projects/qa-performance-test'
+2026-10-11 20:01:00,927 INFO o.a.j.s.SaveService: Loading file: /Users/erkut/projects/qa-performance-test/seviye3_zor.jmx
+2026-10-11 20:01:00,963 INFO o.a.j.r.ClassFinder: Will scan jar /opt/homebrew/Cellar/jmeter/5.6.3/libexec/lib/ext/jmeter-plugins-manager-1.9.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2026-10-11 20:01:00,970 INFO o.a.j.r.ClassFinder: Will scan jar /opt/homebrew/Cellar/jmeter/5.6.3/libexec/lib/ext/jmeter-plugins-manager-1.9.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2026-10-11 20:01:00,984 INFO o.a.j.s.FileServer: Set new base='/Users/erkut/projects/qa-performance-test'
+2026-10-11 20:01:06,058 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2026-10-11 20:01:06,058 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2026-10-11 20:01:06,059 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2026-10-11 20:01:06,090 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group - 3 Dongu
+2026-10-11 20:01:06,090 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group - 3 Dongu.
+2026-10-11 20:01:06,090 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2026-10-11 20:01:06,090 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2026-10-11 20:01:06,091 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2026-10-11 20:01:06,091 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2026-10-11 20:01:06,093 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - 3 Dongu 1-1
+2026-10-11 20:01:06,093 INFO o.a.j.s.FileServer: Stored: sehirler.csv
+2026-10-11 20:01:07,252 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - 3 Dongu 1-1
+2026-10-11 20:01:07,253 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - 3 Dongu 1-1
+2026-10-11 20:01:07,254 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2026-10-11 20:01:07,254 INFO o.a.j.s.FileServer: Close: sehirler.csv
+2026-10-11 20:01:07,257 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2026-10-11 20:01:15,290 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2026-10-11 20:01:15,290 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2026-10-11 20:01:15,291 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2026-10-11 20:01:15,317 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group - 3 Dongu
+2026-10-11 20:01:15,317 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group - 3 Dongu.
+2026-10-11 20:01:15,317 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2026-10-11 20:01:15,317 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2026-10-11 20:01:15,318 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2026-10-11 20:01:15,318 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2026-10-11 20:01:15,318 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - 3 Dongu 1-1
+2026-10-11 20:01:15,318 INFO o.a.j.s.FileServer: Stored: sehirler.csv
+2026-10-11 20:01:16,566 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - 3 Dongu 1-1
+2026-10-11 20:01:16,566 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - 3 Dongu 1-1
+2026-10-11 20:01:16,566 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2026-10-11 20:01:16,566 INFO o.a.j.s.FileServer: Close: sehirler.csv
+2026-10-11 20:01:16,566 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
